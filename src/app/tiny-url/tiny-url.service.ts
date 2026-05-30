@@ -3,7 +3,7 @@ import { TinyUrl } from './model/tiny-url';
 import { Observable } from 'rxjs';
 import { Injectable } from '@angular/core';
 @Injectable({
-  providedIn: 'root' // 💡 Recommended: This makes it globally available
+  providedIn: 'root'
 })
   export class TinyUrlService{
     
